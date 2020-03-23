@@ -4,5 +4,4 @@
 
 dirx= pwd ; ~/.config/polybar/requirments ; git clone https://github.com/polybar/polybar.git ~/.config/polybar/polybar_git ; ~/.config/polybar/polybar_git/build.sh ; echo " Polybar is installed and upto date. ; $(polybar -v) " ; rm -rf ~/.config/polybar/polybar_git ;
 
-echo " You will need to rename either config.mine_default or config_jaggr1 , because polybar will use any configuration file with the name config, the config_jaggr1 is the default configuartion file from Jaggr the creator of polybar , but if you use decide to use mine config file then you will have to use the scritps that i made and are located in scritps directory of the main git repository."
-
+echo "Just go to ~/.config/polybar/ and rename either config_mine or config_default for the configuration file. And now run polybar to start polybar.
